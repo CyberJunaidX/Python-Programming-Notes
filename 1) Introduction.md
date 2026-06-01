@@ -98,7 +98,7 @@
 
 ---
 
-# 🧠 Important MCQ Answers
+# 🧠 Q & A
 
 ## 1. Which libraries are commonly used for data analysis in Python?
 ✔ Pandas and NumPy
