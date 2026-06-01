@@ -1,5 +1,4 @@
-````md id="python_full_notes_001"
-# 🐍 Python Variables, Naming Conventions & print() Function – Full Notes
+# 🐍 Python Variables, Naming Conventions & print() Function 
 
 ---
 
