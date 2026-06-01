@@ -1,5 +1,4 @@
-````md id="python_variables_notes_001"
-# 📦 Python Variables – Short Notes
+# 📦 Python Variables 
 
 ---
 
