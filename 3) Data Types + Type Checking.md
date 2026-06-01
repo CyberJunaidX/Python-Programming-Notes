@@ -1,4 +1,4 @@
-# 🐍 Python Data Types – Short Notes
+# 🐍 Python Data Types + Type Checking
 
 ---
 
