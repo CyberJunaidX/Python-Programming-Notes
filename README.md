@@ -24,7 +24,7 @@ A structured collection of Python programming notes for beginners.
 
 # 🎯 Goal
 
-To build strong Python fundamentals through clean and structured notes.
+To build strong Python fundamentals through clean and structured notes and practical learning.
 
 ---
 
@@ -34,5 +34,15 @@ To build strong Python fundamentals through clean and structured notes.
 - Students
 - Revision
 - Practice
+
+---
+
+# 🚀 Projects
+
+We will also be building **real Python projects** which will help in:
+- Strengthening programming concepts
+- Improving problem-solving skills
+- Building practical experience
+- Making learning more interesting and useful
 
 ---
