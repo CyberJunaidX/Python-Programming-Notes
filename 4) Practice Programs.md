@@ -1,6 +1,4 @@
-````md id="python_datatypes_programs_solutions_clean_001"
-# 🐍 Python Data Types – Practice Programs (With Solutions)
-
+# 🐍 Python Practice Programs 
 ---
 
 # 🟢 Level 1: Basic Data Types
