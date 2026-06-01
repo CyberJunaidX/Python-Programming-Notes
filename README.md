@@ -1,4 +1,4 @@
-# python-notes
+# Python-Notes
 A structured collection of Python programming notes designed for beginners, covering fundamentals, examples, and practice exercises.
 
 Index:
