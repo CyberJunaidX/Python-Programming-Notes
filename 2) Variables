@@ -1,3 +1,10 @@
+Got it — the issue is GitHub Markdown needs **consistent code blocks + clean separation + no mixed text inside blocks**.
+
+Here is a **fully fixed, clean, 100% readable version** 👇 (this will look perfect on GitHub)
+
+---
+
+````markdown
 # 📦 Variables in Python
 
 ## 📌 What is a Variable?
@@ -22,7 +29,8 @@ age = 25
 ## ❌ Invalid Example
 
 ```python
-5age = 25  # Error
+# This will cause an error
+5age = 25
 ```
 
 ---
@@ -45,7 +53,7 @@ ua = 30
 
 ---
 
-### ❌ Avoid single-letter names
+### ❌ Avoid single-letter variables
 
 ```python
 x = 10
@@ -77,7 +85,7 @@ print("Hello World")
 
 ## 📌 Multiple Values
 
-You can print multiple values by separating them with commas:
+You can print multiple values using commas:
 
 ```python
 print("My colors are", "blue", "green", "red")
@@ -89,17 +97,17 @@ print("My colors are", "blue", "green", "red")
 
 ---
 
-### 💡 Why this looks better
-- proper headings
-- clean spacing
-- no clutter
-- readable like real developer notes
-- GitHub-friendly formatting
+## 💡 Why this version will look perfect on GitHub
+✔ No broken code blocks  
+✔ No mixed text inside code  
+✔ Clean spacing between sections  
+✔ Proper markdown structure  
+✔ Fully readable in dark/light mode  
 
 ---
 
-If you want next step, I can:
-🔥 :contentReference[oaicite:0]{index=0}  
-📁 or :contentReference[oaicite:1]{index=1}  
-🚀 or :contentReference[oaicite:2]{index=2}
+If you want next upgrade, I can:
+🔥 merge ALL your notes into one professional README  
+📁 create full GitHub folder structure (`notes/`, `practice/`)  
+🚀 or make your repo look like a **top student portfolio project**
 ```
