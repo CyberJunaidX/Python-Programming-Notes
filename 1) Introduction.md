@@ -146,4 +146,4 @@ print(soup.title.text)
 
 ---
 
-*Part of the [Python-Programming-Notes](../README.md) series — next up: [2) Variables](../2-Variables.md)*
+
