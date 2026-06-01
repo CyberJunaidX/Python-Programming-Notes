@@ -1,0 +1,33 @@
+📦 Variables in Python
+📌 What is a Variable?
+A variable stores data.
+name = "John"
+age = 25
+
+⚠️ Rules for Variables
+Must start with letter or _
+Cannot start with number
+Case-sensitive
+Cannot use keywords (if, class, def)
+❌ Invalid Example
+5age = 25  # Error
+
+🎯 Naming Conventions
+✔ Good Practice (snake_case)
+user_age = 30
+❌ Bad Practice
+ua = 30
+❌ Avoid single letters
+x = 10
+
+💬 Comments
+# This is a comment
+🖨️ print() Function
+
+📌 What it does
+Displays output.
+print("Hello World")
+
+📌 Multiple values
+print("My colors are", "blue", "green", "red")
+✔ Output adds spaces automatically
