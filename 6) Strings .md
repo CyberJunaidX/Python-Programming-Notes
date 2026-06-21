@@ -190,6 +190,101 @@ print(f"The sum of {num1} and {num2} is {num1 + num2}")
 * No need to use `str()` inside f-strings.
 * Python automatically converts values during interpolation.
 
+
+````md id="slicing_notes_01"
+# String Slicing in Python (Short Notes)
+
+## What is String Slicing?
+- String slicing is used to extract a part of a string.
+
+```python id="s1"
+string[start:stop]
+````
+
+## Basic Example
+
+```python id="s2"
+my_str = "Hello world"
+print(my_str[1:4])  # ell
 ```
+
+* `start` is included
+* `stop` is NOT included
+
+---
+
+## Omitting Start or Stop
+
+### Omit start (starts from 0)
+
+```python id="s3"
+my_str = "Hello world"
+print(my_str[:7])  # Hello w
+```
+
+### Omit stop (goes to end)
+
+```python id="s4"
+my_str = "Hello world"
+print(my_str[8:])  # rld
+```
+
+### Omit both (whole string)
+
+```python id="s5"
+my_str = "Hello world"
+print(my_str[:])  # Hello world
+```
+
+---
+
+## Important Rule
+
+* Slicing does NOT change the original string
+
+```python id="s6"
+my_str = "Hello world"
+print(my_str[8:])  # rld
+print(my_str)      # Hello world
+```
+
+---
+
+## Step Parameter
+
+```python id="s7"
+string[start:stop:step]
+```
+
+* Controls how many characters to skip
+
+### Example (step = 2)
+
+```python id="s8"
+my_str = "Hello world"
+print(my_str[0:11:2])  # Hlowrd
+```
+
+---
+
+## Reverse String
+
+* Use step = -1
+
+```python id="s9"
+my_str = "Hello world"
+print(my_str[::-1])  # dlrow olleH
+```
+
+---
+
+## Key Points
+
+* Square brackets are used for slicing
+* `start` is included, `stop` is excluded
+* Strings are immutable
+
+```
+
 
 
