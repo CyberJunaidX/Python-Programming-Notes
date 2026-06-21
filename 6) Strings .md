@@ -284,7 +284,163 @@ print(my_str[::-1])  # dlrow olleH
 * `start` is included, `stop` is excluded
 * Strings are immutable
 
+
+# (4) Common String Methods in Python 
+
+## 1. upper()
+- Converts all characters to uppercase
+
+```python id="m1"
+my_str = "hello world"
+print(my_str.upper())  # HELLO WORLD
+````
+
+---
+
+## 2. lower()
+
+* Converts all characters to lowercase
+
+```python id="m2"
+my_str = "Hello World"
+print(my_str.lower())  # hello world
 ```
+
+---
+
+## 3. strip()
+
+* Removes leading and trailing spaces (or characters)
+
+```python id="m3"
+my_str = "  hello world  "
+print(my_str.strip())  # hello world
+```
+
+---
+
+## 4. replace(old, new)
+
+* Replaces part of a string
+
+```python id="m4"
+my_str = "hello world"
+print(my_str.replace("hello", "hi"))  # hi world
+```
+
+---
+
+## 5. split()
+
+* Splits string into a list
+
+```python id="m5"
+my_str = "hello world"
+print(my_str.split())  # ['hello', 'world']
+```
+
+---
+
+## 6. join()
+
+* Joins list into a string
+
+```python id="m6"
+my_list = ["hello", "world"]
+print(" ".join(my_list))  # hello world
+```
+
+---
+
+## 7. startswith()
+
+* Checks if string starts with a value
+
+```python id="m7"
+my_str = "hello world"
+print(my_str.startswith("hello"))  # True
+```
+
+---
+
+## 8. endswith()
+
+* Checks if string ends with a value
+
+```python id="m8"
+my_str = "hello world"
+print(my_str.endswith("world"))  # True
+```
+
+---
+
+## 9. find()
+
+* Returns index of first occurrence
+* Returns -1 if not found
+
+```python id="m9"
+my_str = "hello world"
+print(my_str.find("world"))  # 6
+```
+
+---
+
+## 10. count()
+
+* Counts occurrences of substring
+
+```python id="m10"
+my_str = "hello world"
+print(my_str.count("o"))  # 2
+```
+
+---
+
+## 11. capitalize()
+
+* First letter uppercase, rest lowercase
+
+```python id="m11"
+my_str = "hello world"
+print(my_str.capitalize())  # Hello world
+```
+
+---
+
+## 12. isupper()
+
+* Checks if all letters are uppercase
+
+```python id="m12"
+my_str = "HELLO"
+print(my_str.isupper())  # True
+```
+
+---
+
+## 13. islower()
+
+* Checks if all letters are lowercase
+
+```python id="m13"
+my_str = "hello"
+print(my_str.islower())  # True
+```
+
+---
+
+## 14. title()
+
+* Capitalizes first letter of each word
+
+```python id="m14"
+my_str = "hello world"
+print(my_str.title())  # Hello World
+```
+
+```
+
 
 
 
