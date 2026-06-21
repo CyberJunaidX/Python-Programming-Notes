@@ -191,8 +191,7 @@ print(f"The sum of {num1} and {num2} is {num1 + num2}")
 * Python automatically converts values during interpolation.
 
 
-````md id="slicing_notes_01"
-# String Slicing in Python (Short Notes)
+# String Slicing in Python 
 
 ## What is String Slicing?
 - String slicing is used to extract a part of a string.
