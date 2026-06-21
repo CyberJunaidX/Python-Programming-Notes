@@ -1,4 +1,4 @@
-Create a Python program for a student report card.
+# Create a Python program for a student report card.
 
 Declare a variable name and assign it the string value 'Alice'. Print its value and data type.
 Declare a variable is_student and assign it the boolean value True. Print its value and data type.
