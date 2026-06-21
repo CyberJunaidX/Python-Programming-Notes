@@ -1,4 +1,4 @@
-# Strings and String Immutability 
+# (1) Strings and String Immutability 
 
 ## What is a String?
 - A string is a sequence of characters surrounded by single (' ') or double (" ") quotes.
@@ -112,7 +112,7 @@ greeting[0] = 'H'  # TypeError
 ```
 ```
 
-# String Concatenation and String Interpolation
+# (2) String Concatenation and String Interpolation
 
 ## String Concatenation
 - Combining strings using the `+` operator.
@@ -191,7 +191,8 @@ print(f"The sum of {num1} and {num2} is {num1 + num2}")
 * Python automatically converts values during interpolation.
 
 
-# String Slicing in Python 
+
+# (3) String Slicing in Python 
 
 ## What is String Slicing?
 - String slicing is used to extract a part of a string.
