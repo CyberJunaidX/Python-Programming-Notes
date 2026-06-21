@@ -12,13 +12,12 @@ A structured collection of Python programming notes for beginners.
 
 # 📚 Index
 
-## 1. 📘 Introduction
-
-## 2. 📦 Variables
-
-## 3. 📊 Data Types
-
-## 4. 🧪 Practice Exercises
+## 1. Introduction
+## 2. Variables
+## 3. Data Types
+## 4. Task
+## 5. Strings
+## 6. Task
 
 ---
 
