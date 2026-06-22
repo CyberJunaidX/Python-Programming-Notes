@@ -16,8 +16,8 @@ A structured collection of Python programming notes for beginners.
 ## 2. Variables
 ## 3. Data Types
 ## 4. Practice Programs
-## 5. Strings
-## 6. Task
+## 5. Task
+## 6. Strings
 
 ---
 
